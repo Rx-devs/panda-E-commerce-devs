@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PANDA | E-commerce</title>
+    <!-- fontawesome icons kit -->
+    <script src="https://kit.fontawesome.com/0368de2544.js" crossorigin="anonymous"></script>
     <!-- bootstrap styles -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -15,6 +17,266 @@
 
 <body>
 
+    <header>
+        <!-- navbar -->
+        <nav class="container navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="./images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form>
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- top banner -->
+        <section class="container">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="carousel-banner-area">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-8">
+                                    <div class="carousel-banner-info">
+                                        <h1 class="fw-bolder">Mi LED TV 4A PRO 32</h1>
+
+                                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                            Velit officia consequat duis enim velit mollit. Exercitation veniam
+                                            consequat sunt nostrud amet.</p>
+                                        <span>$1289</span>
+                                        <a href="#" class="btn custom-button text-light">BUY NOW<i
+                                                class="fas fa-arrow-right"></i></a>
+                                    </div>
+
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid" src="./images/banner-images/tv.png" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-banner-area">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-8">
+                                    <div class="carousel-banner-info">
+                                        <h1 class="fw-bolder">Mi LED TV 4A PRO 32</h1>
+
+                                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                            Velit officia consequat duis enim velit mollit. Exercitation veniam
+                                            consequat sunt nostrud amet.</p>
+                                        <span>$1289</span>
+                                        <a href="#" class="btn custom-button">BUY NOW<i
+                                                class="fas fa-arrow-right"></i></a>
+                                    </div>
+
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid" src="./images/banner-images/tv.png" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-banner-area">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-8">
+                                    <div class="carousel-banner-info">
+                                        <h1 class="fw-bolder">Mi LED TV 4A PRO 32</h1>
+
+                                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                            Velit officia consequat duis enim velit mollit. Exercitation veniam
+                                            consequat sunt nostrud amet.</p>
+                                        <span>$1289</span>
+                                        <a href="#" class="btn custom-button">BUY NOW<i
+                                                class="fas fa-arrow-right"></i></a>
+                                    </div>
+
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid" src="./images/banner-images/tv.png" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- catagories -->
+        <section id="catagories" class="container">
+            <h2>Categories</h2>
+            <div class="row row-cols-md-3 row-cols-sm-1">
+                <div class="col">
+                    <div class="category-one d-flex justify-content-between align-items-center">
+                        <h2>Watch</h2>
+                        <img src="./images/categories/watch.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="category-two d-flex justify-content-between align-items-center">
+                        <h2>Bag</h2>
+                        <img src="./images/categories/bag.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="category-three d-flex justify-content-between align-items-center">
+                        <h2>Shoes</h2>
+                        <img src="./images/categories/shoes.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- shoes -->
+        <section class="container" id="shoes-section">
+            <div class="section-title-area d-flex justify-content-between">
+                <h2>Shoes</h2>
+                <a href="" class="btn see-button">See All</a>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card border-0 h-100">
+                        <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Reebok Dart Men’s Shoes</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="card-footer text-center border-0">
+                            <span>$1280</span>
+                            <a href="#" class="btn buy-button text-light">BUY NOW<i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 h-100">
+                        <img src="./images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Reebok Pump</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="card-footer text-center border-0">
+                            <span>$800</span>
+                            <a href="#" class="btn buy-button text-light">BUY NOW<i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 h-100">
+                        <img src="./images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="card-footer text-center border-0">
+                            <span>$700</span>
+                            <a href="#" class="btn buy-button text-light">BUY NOW<i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Backpack -->
+        <section class="container" id="backpack-section">
+            <div class="section-title-area d-flex justify-content-between">
+                <h2>Backpack</h2>
+                <a href="" class="btn see-button">See All</a>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card border-0 h-100">
+                        <img src="./images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Ison Backpack</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="card-footer text-center border-0">
+                            <span>$1280</span>
+                            <a href="#" class="btn buy-button text-light">BUY NOW<i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 h-100">
+                        <img src="./images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Biaowang Backpack</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="card-footer text-center border-0">
+                            <span>$800</span>
+                            <a href="#" class="btn buy-button text-light">BUY NOW<i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 h-100">
+                        <img src="./images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Dxyizu WS54 Smart</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="card-footer text-center border-0">
+                            <span>$700</span>
+                            <a href="#" class="btn buy-button text-light">BUY NOW<i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container">
+        <form class="text-center" action="">
+            <h2>LET'S STAY IN TOUCH</h2>
+            <p>Get updates on sales specials and more</p>
+            <div class="footer-form d-flex justify-content-center align-items-center">
+                <input type="email" class="input-email border-0" placeholder="Enter your email">
+                <button class="btn send-button text-light">Send</button>
+            </div>
+        </form>
+    </footer>
 
 
     <!-- bootstrap scripts -->

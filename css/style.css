@@ -1,0 +1,103 @@
+
+/* top banner */
+.carousel-banner-area{
+    padding: 38px 62px 38px 46px;
+    background-color: #FEEAE9;
+}
+.carousel-banner-info{
+    padding-right: 25%;
+}
+.carousel-banner-info h1{
+    font-size: 56px;
+    line-height: 84px;
+}
+.carousel-banner-info p{
+    margin-right: 20%;
+}
+.carousel-banner-info span{
+    font-size: 40px;
+    display: block;
+    color: #FF136F;
+}
+.custom-button{
+    background-color: #FF136F;
+    padding: 16px 28px;
+    margin-top: 8px;
+}
+.custom-button i{
+    margin-left: 10px;
+}
+
+/* categories */
+#catagories{
+   
+    padding: 0 46px 0;
+    margin-top: 64px;
+}
+.category-one{
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+    
+}
+.category-two{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.category-three{
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+.category-one,
+.category-two,
+.category-three{
+    color: #fff;
+    padding: 15px 48px;
+    margin-top: 24px ;
+    border-radius: 15px;
+}
+
+/* shoes section & backpack section*/
+#shoes-section,
+#backpack-section{
+    padding: 0 46px 0;
+    margin-top: 98px;
+}
+.section-title-area{
+    margin-bottom: 24px;
+}
+.see-button{
+    color: #FF9D00;
+}
+.card-footer span{
+    font-size: 24px;
+    line-height: 36px;
+    display: block;
+}
+.buy-button{
+    padding: 16px 28px;
+    background-color: #000000;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.buy-button i{
+    margin-left: 14px;
+}
+
+/* footer */
+footer{
+    margin-top: 70px;
+    padding: 146px 264px;
+}
+.footer-form input{
+    width: 530px;
+}
+.input-email{
+    padding-left: 36px;
+    font-size: 24px;
+    outline: none;
+}
+.input-email::placeholder{
+    color: #CCCCCC;
+}
+.send-button{
+    padding: 20px 48px;
+    font-size: 24px;
+    background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+}
